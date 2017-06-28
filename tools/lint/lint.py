@@ -72,8 +72,16 @@ if __name__ == '__main__':
     if error_count == 0:
         sys.exit(0)
 
+    missingESID = 0
     for file_name, failures in unexpected_errors.iteritems():
         for ID, message in failures.iteritems():
             eprint('%s: %s - %s' % (file_name, ID, message))
+
+            if ID == 'FRONTMATTER':
+                if message == 'Required fields missing: esid':
+                    missingESID+= 1
+
+
+    print 'Files missing esid attribute: %s file%s' % (missingESID, s)
 
     sys.exit(1)

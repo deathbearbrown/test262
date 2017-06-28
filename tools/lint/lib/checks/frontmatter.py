@@ -1,8 +1,8 @@
 from ..check import Check
 
-_REQUIRED_FIELDS = set(['description'])
+_REQUIRED_FIELDS = set(['description', 'esid'])
 _OPTIONAL_FIELDS = set([
-    'author', 'es5id', 'es6id', 'esid', 'features', 'flags', 'includes',
+    'author', 'es5id', 'es6id', 'features', 'flags', 'includes',
     'info', 'negative', 'timeout'
 ])
 _VALID_FIELDS = _REQUIRED_FIELDS | _OPTIONAL_FIELDS
