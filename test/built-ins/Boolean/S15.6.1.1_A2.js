@@ -3,6 +3,7 @@
 
 /*---
 info: Boolean() returns false
+esid: sec-boolean-constructor-boolean-value
 es5id: 15.6.1.1_A2
 description: Call Boolean() and check result
 ---*/

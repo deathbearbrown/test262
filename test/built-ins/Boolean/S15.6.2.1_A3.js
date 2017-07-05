@@ -5,6 +5,7 @@
 info: >
     The [[Value]] property of the newly constructed object
     is set to ToBoolean(value)
+esid: sec-properties-of-the-boolean-prototype-object
 es5id: 15.6.2.1_A3
 description: Checking value of the newly created object
 ---*/

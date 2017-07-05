@@ -3,6 +3,7 @@
 
 /*---
 info: The Boolean constructor has the property "prototype"
+esid: sec-properties-of-the-boolean-prototype-object
 es5id: 15.6.3_A1
 description: Checking existence of the property "prototype"
 ---*/
